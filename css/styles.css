@@ -4,7 +4,7 @@
   --add-color: #777777;
 }
 body {
-  font-family: "Monsterrat";
+  font-family: "Montserrat";
 }
 h1,
 h2,
@@ -70,6 +70,10 @@ img {
   text-transform: uppercase;
   text-decoration: none;
 }
+.nav-link:hover,
+.nav-link:focus {
+  font-weight: 700;
+}
 .services {
   padding-top: 110px;
   padding-bottom: 118px;
@@ -104,6 +108,17 @@ img {
 }
 .contact-us-title {
   color: white;
+  font-size: 40px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+.contact-us-input::placeholder,
+.contact-us-textarea::placeholder {
+  color: #bbb;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.35px;
+  text-transform: uppercase;
 }
 .contact-us-btn {
   color: #fff;
@@ -114,4 +129,10 @@ img {
   padding: 18px 33px 28px;
   background-color: var(--accent-color);
   border: none;
+  border-radius: 10px;
+}
+.contact-us-btn:hover,
+.contact-us-btn:focus {
+  opacity: 0.7;
+  cursor: pointer;
 }
